@@ -9,8 +9,10 @@ public class Student {
         this.points = points;
     }
 
-    //@Override
+    @Override
     public String toString() {
-        return "Name: " + name + "\nTests: " + tests + "\nPoints: " + points;
+        return "Name: " + name +
+                "\nTests: " + tests +
+                "\nPoints: " + points;
     }
 }
